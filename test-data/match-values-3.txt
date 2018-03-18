@@ -1,0 +1,10 @@
+"agentId","objectId","value"
+Alicia,apple,100
+Alicia,broccoli,80
+Alicia,carrot,90
+Bo,apple,50
+Bo,broccoli,40
+Bo,carrot,30
+Cara,apple,20
+Cara,broccoli,10
+Cara,carrot,0
