@@ -1,0 +1,101 @@
+"agentId","objectId","value"
+Adriel,chocolate,61
+Adriel,sandpaper,10
+Adriel,bowl,12
+Adriel,sunglasses,94
+Adriel,piano,14
+Adriel,washing machine,91
+Adriel,mouse pad,4
+Adriel,thermostat,11
+Adriel,shoe lace,44
+Adriel,cork,87
+Aiden,chocolate,26
+Aiden,sandpaper,63
+Aiden,bowl,30
+Aiden,sunglasses,56
+Aiden,piano,75
+Aiden,washing machine,3
+Aiden,mouse pad,3
+Aiden,thermostat,67
+Aiden,shoe lace,67
+Aiden,cork,14
+Aiyana,chocolate,38
+Aiyana,sandpaper,72
+Aiyana,bowl,12
+Aiyana,sunglasses,89
+Aiyana,piano,100
+Aiyana,washing machine,74
+Aiyana,mouse pad,8
+Aiyana,thermostat,32
+Aiyana,shoe lace,0
+Aiyana,cork,71
+Alaina,chocolate,89
+Alaina,sandpaper,59
+Alaina,bowl,27
+Alaina,sunglasses,42
+Alaina,piano,59
+Alaina,washing machine,83
+Alaina,mouse pad,17
+Alaina,thermostat,80
+Alaina,shoe lace,93
+Alaina,cork,32
+Aldo,chocolate,65
+Aldo,sandpaper,70
+Aldo,bowl,35
+Aldo,sunglasses,47
+Aldo,piano,14
+Aldo,washing machine,49
+Aldo,mouse pad,27
+Aldo,thermostat,30
+Aldo,shoe lace,61
+Aldo,cork,79
+Alfonso,chocolate,47
+Alfonso,sandpaper,93
+Alfonso,bowl,55
+Alfonso,sunglasses,16
+Alfonso,piano,43
+Alfonso,washing machine,62
+Alfonso,mouse pad,38
+Alfonso,thermostat,51
+Alfonso,shoe lace,12
+Alfonso,cork,45
+Alicia,chocolate,0
+Alicia,sandpaper,87
+Alicia,bowl,65
+Alicia,sunglasses,60
+Alicia,piano,14
+Alicia,washing machine,25
+Alicia,mouse pad,8
+Alicia,thermostat,25
+Alicia,shoe lace,74
+Alicia,cork,2
+Alison,chocolate,43
+Alison,sandpaper,87
+Alison,bowl,46
+Alison,sunglasses,20
+Alison,piano,44
+Alison,washing machine,2
+Alison,mouse pad,51
+Alison,thermostat,78
+Alison,shoe lace,99
+Alison,cork,95
+Amelia,chocolate,28
+Amelia,sandpaper,22
+Amelia,bowl,47
+Amelia,sunglasses,51
+Amelia,piano,37
+Amelia,washing machine,11
+Amelia,mouse pad,95
+Amelia,thermostat,13
+Amelia,shoe lace,64
+Amelia,cork,85
+Amiya,chocolate,68
+Amiya,sandpaper,33
+Amiya,bowl,68
+Amiya,sunglasses,66
+Amiya,piano,87
+Amiya,washing machine,49
+Amiya,mouse pad,3
+Amiya,thermostat,56
+Amiya,shoe lace,78
+Amiya,cork,47
