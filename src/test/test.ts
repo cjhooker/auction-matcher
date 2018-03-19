@@ -2,8 +2,8 @@
 
 import { expect } from 'chai'
 import * as dataLoader from "../test-util/data-loader"
-
 import * as auctionMatcher from '../auction-matcher'
+import { MatchValue } from "../types/MatchValue"
 
 describe('auction-matcher', () => {
     it('Correctly optimizes a set of 3 agents and 3 objects', (done) => {

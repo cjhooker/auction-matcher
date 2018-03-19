@@ -1,6 +1,7 @@
 "use strict";
 
 import * as randomSeed from "random-seed"
+import { MatchValue } from "./types/MatchValue"
 
 /** Create a random assignment of the possible matches in matchValues, using the given random seed. */
 export let match = (matchValues: MatchValue[], seed?: string) => {

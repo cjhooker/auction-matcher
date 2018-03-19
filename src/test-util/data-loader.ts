@@ -1,5 +1,6 @@
 import fs = require("fs");
 import csvParse = require('csv-parse');
+import { MatchValue } from "../types/MatchValue"
 
 export let loadMatchValues = (filename: string, callback: Function) => {
     fs.readFile(filename, 'utf8', function (err, data) {

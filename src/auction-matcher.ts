@@ -2,6 +2,9 @@
 
 import * as randomMatcher from "./random-matcher"
 import * as logger from "./logger"
+import { MatchValue } from "./types/MatchValue"
+
+export { MatchValue } from "./types/MatchValue"
 
 /** The random seed to use for the initial assignment of matches before optimization. */
 let seed: string = null;
