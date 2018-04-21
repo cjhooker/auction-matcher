@@ -7,7 +7,8 @@
   "types": "dist/auction-matcher.d.ts",
   "scripts": {
     "start": "tsc && node dist/auction-matcher.js",
-    "test": "tsc && mocha --reporter spec dist/test/test.js"
+    "test": "tsc && mocha \"dist/test/!(slow-tests).js\" --reporter spec",
+    "test-all": "tsc && mocha dist/test/*.js --reporter spec"
   },
   "devDependencies": {
     "@types/chai": "^4.1.2",

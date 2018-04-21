@@ -1,5 +1,6 @@
 "use strict";
 
+import "./array-extensions";
 import * as randomMatcher from "./random-matcher"
 import * as logger from "./logger"
 import { MatchValue } from "./types/MatchValue"
@@ -32,8 +33,7 @@ export let match = (matchValues: MatchValue[]) => {
 
     // Delta is the initial epsilon value we will use.
     // Set delta to the max object value / 2
-    let maxValue = Math.max(...[].concat(...auctionState.matchLookup));    
-    let delta =  maxValue / 2;
+    let delta = auctionState.matchLookup.max() / 2;
 
     let scalingIteration = 0;
 
@@ -109,8 +109,9 @@ function getUnhappyMatch(auctionState: AuctionState) {
     for (let i = 0; i < auctionState.currentMatches.length; i++) {
         let match = auctionState.currentMatches[i];
         let netValue = getMatchNetValue(match, auctionState.prices);
-        let maxNetValue = Math.max(...auctionState.matchLookup[match.agentId]
-            .map((value, index) => getNetValue(value, index, auctionState.prices)));
+        let maxNetValue = auctionState.matchLookup[match.agentId]
+            .map((value, index) => getNetValue(value, index, auctionState.prices))
+            .max();
 
         // An agent is happy if the net value of their current match is 
         // within epsilon of the max net value of any match 
@@ -148,9 +149,10 @@ function makeHappy(auctionState: AuctionState, unhappyMatch: AuctionMatch, maxNe
     
     // Set new price
     let bestObjectPrice = auctionState.prices[bestObjectId];
-    let secondBestValue: number = Math.max(...auctionState.matchLookup[unhappyMatch.agentId]
+    let secondBestValue: number = auctionState.matchLookup[unhappyMatch.agentId]
         .map((value, index) => getNetValue(value, index, auctionState.prices))
-        .filter((value, index) => index != bestObjectId));
+        .filter((value, index) => index != bestObjectId)
+        .max();
 
     auctionState.prices[bestObjectId] += (getMatchNetValue(bestMatch, auctionState.prices) - secondBestValue + auctionState.epsilon);
 }
