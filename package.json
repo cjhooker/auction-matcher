@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "A library for finding the optimal set of matches between a set of agents and a set of objects, using an auction algorithm.",
   "author": "Chris Hooker",
+  "repository": "github:cjhooker/auction-matcher",
   "main": "dist/auction-matcher.js",
   "types": "dist/auction-matcher.d.ts",
   "scripts": {

@@ -56,6 +56,13 @@ console.log(optimalMatches);
 
 ## Test 
 
+To run all unit tests except the slow ones:
+
 ```sh
-npm run test
+npm test
+```
+
+Some tests on large datasets take a long time to run (~2 minutes). If you want to include these in your test run, do:
+```sh
+npm run test-all
 ```
